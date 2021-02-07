@@ -1,0 +1,468 @@
+/*start frem Work*/
+ul,ol
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contaneir
+{
+    width:80%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+img
+{
+    width: 100%;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+a
+{
+    text-decoration: none;
+}
+/*End frem Work*/
+/*start navbar*/
+.navbar
+{
+    overflow:hidden;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 99999;
+}
+.navbar .logo
+{
+    width:30%;
+    float:left
+}
+.navbar .logo h2
+{
+    text-transform:uppercase;
+    font-size:40px;
+    margin: 0;
+    color:#FFF
+}
+.navbar .link
+{
+    width:70%;
+    float:right;
+    line-height: 3;
+    text-transform: uppercase;
+}
+.navbar .link li
+{
+    display:inline-block;
+    margin-left: 2%;
+    font-size: 14px;
+}
+.navbar .link li a
+{
+    color:#FFFF;
+    font-weight: 600;
+    transition: all .5s ease;
+}
+.navbar .link li a:hover
+{
+    color:blue
+}
+/*End navbar*/
+/*start header*/
+.header
+{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+.box
+{
+    position: relative;
+}
+.img-box
+{
+    position: absolute
+}
+.img-one
+{
+    z-index: 1;
+}
+.img-tow
+{
+    z-index: -1;
+}
+video
+{
+    width: 106%;
+}
+.text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:#FFF
+}
+.text h2
+{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+.text p
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.text button
+{
+    border: 0;
+    background-color: #ce041c;
+    padding: 16px;
+    border-radius: 10px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bolets
+{
+    position: absolute;
+    top: 89%;
+    z-index: 9999;
+    left: 45%;
+}
+.bolets li
+{
+    display: inline-block;
+    width:33px;
+    height: 4px;
+    background-color: #FFF;
+    cursor:pointer
+}
+.active
+{
+    background-color: rgb(122, 122, 122) !important;
+}
+/*End header*/
+/*about*/
+.about
+{
+    overflow: hidden;
+    padding: 60px 0;
+}
+.about h3
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.about h3~ p
+{
+    line-height: 2;
+    font-size: 16px;
+    color:rgb(173, 173, 173);
+    margin-bottom: 80px;
+}
+.about .our-skills
+{
+    float: left;
+    width:50%
+}
+.about .our-skills .p-progress-bar
+{
+    position: relative;
+    margin-top: 30px;
+}
+.about .our-skills .p-progress-bar span:nth-of-type(1)
+{
+    position: absolute;
+    text-transform: uppercase;
+    top: -21px;
+    left: 8px;
+}
+.about .our-skills .p-progress-bar div:nth-of-type(1)
+{
+    width:100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.about .our-skills .p-progress-bar:nth-of-type(1) div:nth-of-type(1) span
+{
+    width: 95%;
+    height: 100%;
+    background-color: #2250FC;
+    border-radius: 10px;
+    top: 0px;
+    left: 0;
+}
+.about .our-skills .p-progress-bar:nth-of-type(2) div:nth-of-type(1) span
+{
+    width: 80%;
+    height: 100%;
+    background-color: #2250FC;
+    border-radius: 10px;
+    top: 0px;
+    left: 0;
+}
+.about .our-skills .p-progress-bar:nth-of-type(3) div:nth-of-type(1) span
+{
+    width: 75%;
+    height: 100%;
+    background-color: #2250FC;
+    border-radius: 10px;
+    top: 0px;
+    left: 0;
+}
+.about .our-skills .p-progress-bar:nth-of-type(4) div:nth-of-type(1) span
+{
+    width: 70%;
+    height: 100%;
+    background-color: #2250FC;
+    border-radius: 10px;
+    top: 0px;
+    left: 0;
+}
+.about .our-skills .p-progress-bar:nth-of-type(5) div:nth-of-type(1) span
+{
+    width: 65%;
+    height: 100%;
+    background-color: #2250FC;
+    border-radius: 10px;
+    top: 0px;
+    left: 0;
+}
+.about .our-skills .p-progress-bar:nth-of-type(6) div:nth-of-type(1) span
+{
+    width: 60%;
+    height: 100%;
+    background-color: #2250FC;
+    border-radius: 10px;
+    top: 0px;
+    left: 0;
+}
+.about .our-skills .p-progress-bar span:nth-of-type(2)
+{
+    position: absolute;
+    right: 0;
+    top:-20px
+}
+.about .services
+{
+    float: left;
+    width:45%;
+    margin-left: 4%;
+}
+.about .acrrdown
+{
+    border:1px solid #d8d8d8;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.about .acrrdown h2
+{
+    background-color: #f5f2f2;
+    margin: 0;
+    padding: 10px;
+    font-size: 21px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.about .acrrdown h2 i
+{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.about .acrrdown h2 i:nth-of-type(2)
+{
+    position: relative;
+    left: 208px;
+}
+.about .acrrdown p
+{
+    padding: 10px;
+    display: none;
+    font-size: 18px;
+    line-height: 1.7;
+}
+/*start work*/
+.work
+{   overflow: hidden;
+    padding: 60px 0 0;
+    background-color: rgb(219, 221, 223);
+}
+.work h2
+{
+    margin: 0 0 32px;
+    font-size: 41px;
+    position:relative;
+}
+.work h2::after
+{   content:"";
+    position:absolute;
+    width: 128px;
+    height: 3px;
+    background-color: #2250FC;
+    top: 62px;
+    left: 4px;
+}
+.work h2~p
+{
+    color: #afadad;
+    margin-bottom: 45px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.box-img
+{
+    float:left;
+    width:calc(100%/4);
+    margin: 0;
+    position: relative;
+    height: 225px;
+}
+.box-img:hover .overLay 
+{
+    display: block;
+}
+.overLay
+{
+    position: absolute;
+    background-color: rgba(13, 88, 138, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color:#FFF;
+    text-align: center;
+    text-transform: uppercase;
+    display: none;
+}
+.overLay h4
+{
+    margin: 93px 0 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: cursive;
+    opacity: 0;
+}
+.box-img .overLay:hover h4
+{
+    opacity: 1;
+    transition: all 2s ease;
+} 
+.overLay p
+{
+    font-size: 14px;
+    opacity: 0;
+}
+.box-img .overLay:hover p
+{
+    opacity: 1;
+    transition: all .5s ease;
+    transition-delay: 1s;
+}
+/*tools*/
+.tools
+{
+    padding:60px 0;
+    overflow: hidden;
+}
+.tools h2
+{
+    text-align: center;
+    font-size: 46px;
+    text-transform:uppercase;
+    font-weight:600;
+    position:relative;
+}
+.tools h2::after
+{
+    content: "";
+    position: absolute;
+    width: 128px;
+    height: 2px;
+    background-color: #2250FC;
+    top: 65px;
+    left: 44%;
+}
+.tools h2~p
+{
+    text-align: center;
+    font-size: 18px;
+    color:rgb(187, 186, 186);
+    font-weight:300
+}
+.tools .tools-box
+{
+    float:left;
+    width:calc(94% / 3);
+    margin-left: 2%;
+    overflow: hidden;
+}
+.tools .tools-box .icon
+{
+    float: left;
+    width: 15%;
+    border: 3px solid #333;
+    height: 47px;
+    text-align: center;
+    line-height: 47px;
+    border-radius: 50%;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.tools .tools-box .icon:hover
+{
+    width: 20%;
+    height: 60px;
+    line-height: 60px;
+    transition: all .5s ease;
+}
+.tools .tools-box .content-toole
+{
+    float: right;
+    width: 70%; 
+}
+.tools .tools-box .content-toole h4
+{
+    font-size: 22px;
+}
+.tools .tools-box .content-toole p
+{
+    color: #8c8c8c;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 300
+}
+/*carousel*/
+.carousel
+{
+    padding:60px 0;
+    overflow:hidden;
+    background-color: #d8d8d8;
+}
+.carousel .box-carousel
+{
+    overflow: hidden;
+
+}
+.carousel .box-carou-img
+{
+    display: inline-block;
+    width: calc(87% / 10);
+    margin-left: 2%;
+}
+footer
+{
+    background-color: #EFF1F4;
+    text-align: center;
+    padding: 20px;
+}
